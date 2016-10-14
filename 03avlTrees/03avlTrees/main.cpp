@@ -48,14 +48,23 @@ int main() {
     testTree.insert(30);
     testTree.insert(15);
     testTree.insert(18);
+    testTree.insert(17);
+    
+    std::cout << std::endl << testTree.toString("");
 
     testTree.removeMin();
-    testTree.removeMin();
-    testTree.removeMin();
+    
+    std::cout << std::endl << testTree.toString("");
 
+    testTree.removeMin();
+    
+    std::cout << std::endl << testTree.toString("");
+
+    testTree.removeMin();
+    
     std::cout << std::endl << testTree.toString("");
     
-    std::cout << std::endl << testTree.toString2("") << std::endl;
+    std::cout << std::endl << testTree.toString2("");
 
     
     g.play("this", "those");
@@ -71,6 +80,8 @@ int main() {
     g.play("stet", "whey");
     g.play("hiking", "edited");
 
+    std::cout << 0 % 2 << std::endl;
+    
     return 0;
 }
 
