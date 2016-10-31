@@ -79,8 +79,6 @@ int main() {
     g.play("jura", "such");
     g.play("stet", "whey");
     g.play("hiking", "edited");
-
-    std::cout << 0 % 2 << std::endl;
     
     return 0;
 }
