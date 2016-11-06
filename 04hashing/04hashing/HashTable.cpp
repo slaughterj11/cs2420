@@ -144,7 +144,7 @@ int main() {
     
     std::ifstream fin;
     
-    fin.open("game1.txt");
+    fin.open("game0.txt");
     
     std::cout << "-  Game Table  -\n";
     std::cout << "Word       Score\n";
