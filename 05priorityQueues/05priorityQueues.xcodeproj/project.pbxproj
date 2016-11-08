@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		835EF48D1DD12BED00BB4F13 /* heaps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835EF48C1DD12BED00BB4F13 /* heaps.cpp */; };
+		835EF48D1DD12BED00BB4F13 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835EF48C1DD12BED00BB4F13 /* main.cpp */; };
+		836DBEB51DD190C10019ECA2 /* heap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 836DBEB31DD190C10019ECA2 /* heap.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		835EF4821DD1297D00BB4F13 /* 05priorityQueues */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 05priorityQueues; sourceTree = BUILT_PRODUCTS_DIR; };
-		835EF48C1DD12BED00BB4F13 /* heaps.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = heaps.cpp; sourceTree = "<group>"; };
+		835EF48C1DD12BED00BB4F13 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		836DBEB31DD190C10019ECA2 /* heap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = heap.cpp; sourceTree = "<group>"; };
+		836DBEB41DD190C10019ECA2 /* heap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = heap.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		835EF4841DD1297D00BB4F13 /* 05priorityQueues */ = {
 			isa = PBXGroup;
 			children = (
-				835EF48C1DD12BED00BB4F13 /* heaps.cpp */,
+				835EF48C1DD12BED00BB4F13 /* main.cpp */,
+				836DBEB31DD190C10019ECA2 /* heap.cpp */,
+				836DBEB41DD190C10019ECA2 /* heap.h */,
 			);
 			path = 05priorityQueues;
 			sourceTree = "<group>";
@@ -119,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				835EF48D1DD12BED00BB4F13 /* heaps.cpp in Sources */,
+				835EF48D1DD12BED00BB4F13 /* main.cpp in Sources */,
+				836DBEB51DD190C10019ECA2 /* heap.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +252,7 @@
 				835EF48B1DD1297D00BB4F13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
